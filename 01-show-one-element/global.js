@@ -1,4 +1,6 @@
-window.addEventListener("load", function(){
+document.addEventListener('click', function(e){
+  document.getElementById('more_text_content').style.display = 'block';
+  document.getElementById('more_text_link').style.visibility = 'hidden';
 
   // Here is some pseudo-code to help you get started:
 
@@ -15,3 +17,5 @@ window.addEventListener("load", function(){
   // 5. Also modify the DOM to hide the "More info..." link.
   
 });
+
+
