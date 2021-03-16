@@ -14,7 +14,7 @@ mēs restartējam vietni un tādējādi restartējam pašu programmu. Tādējād
 > Remove `window.addEventListener("load", function(){` (and the closing `})`) from **global.js**. Does the link still reveal the text? What is the purpose of this code that you've removed?
 
 Your reply here...
-Jā saite atklāj.Šis kods ir nepieciešams izstrādātāja konsolei.
+Nē saite neatklāj.Pēc restartešanas teksta nebus.
 
 ---
 
