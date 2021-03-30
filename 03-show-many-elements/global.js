@@ -1,15 +1,15 @@
 window.onload = function() {
 
-    var clickIt = document.getElementById("button");
+var clickIt = document.getElementById("button");
     
-    clickIt.addEventListener("click", function(){
+clickIt.addEventListener("click", function(){
     
-      var textToShow = document.getElementsByClassName("show_me");
+    var textToShow = document.getElementsByClassName("show_me");
     
-      for (var i = 0; i < textToShow.length; i++) {
-          textToShow[i].style.display = "block";
-      }
+    for (var a = 0; a < textToShow.length; a++) {
+          textToShow[a].style.display = "block";
+    }
     
-    });
+});
     
-    }; 
+}; 
